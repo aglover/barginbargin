@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6EA1D85144DE9AD00086DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D84144DE9AD00086DF0 /* UIKit.framework */; };
+		F6EA1D87144DE9AD00086DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D86144DE9AD00086DF0 /* Foundation.framework */; };
+		F6EA1D89144DE9AD00086DF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D88144DE9AD00086DF0 /* CoreGraphics.framework */; };
+		F6EA1D8F144DE9AD00086DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1D8D144DE9AD00086DF0 /* InfoPlist.strings */; };
+		F6EA1D92144DE9AD00086DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1D91144DE9AD00086DF0 /* main.m */; };
+		F6EA1D95144DE9AD00086DF0 /* BarginBarginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1D94144DE9AD00086DF0 /* BarginBarginAppDelegate.m */; };
+		F6EA1D98144DE9AD00086DF0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1D96144DE9AD00086DF0 /* MainWindow.xib */; };
+		F6EA1D9B144DE9AD00086DF0 /* BarginBarginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1D9A144DE9AD00086DF0 /* BarginBarginViewController.m */; };
+		F6EA1D9E144DE9AD00086DF0 /* BarginBarginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1D9C144DE9AD00086DF0 /* BarginBarginViewController.xib */; };
+		F6EA1DA5144DE9AD00086DF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D84144DE9AD00086DF0 /* UIKit.framework */; };
+		F6EA1DA6144DE9AD00086DF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D86144DE9AD00086DF0 /* Foundation.framework */; };
+		F6EA1DA7144DE9AD00086DF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1D88144DE9AD00086DF0 /* CoreGraphics.framework */; };
+		F6EA1DAF144DE9AD00086DF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1DAD144DE9AD00086DF0 /* InfoPlist.strings */; };
+		F6EA1DB2144DE9AD00086DF0 /* BarginBarginTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1DB1144DE9AD00086DF0 /* BarginBarginTests.h */; };
+		F6EA1DB4144DE9AD00086DF0 /* BarginBarginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DB3144DE9AD00086DF0 /* BarginBarginTests.m */; };
+		F6EA1DCA144DF76900086DF0 /* swingline_stapler_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1DC9144DF76900086DF0 /* swingline_stapler_icon.png */; };
+		F6EA1DD0144DFC9D00086DF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1DCF144DFC9D00086DF0 /* CoreLocation.framework */; };
+		F6EA1DE8144DFDB400086DF0 /* EmbeddedAgentSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6EA1DD3144DFDB400086DF0 /* EmbeddedAgentSettings.plist */; };
+		F6EA1DE9144DFDB400086DF0 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DD8144DFDB400086DF0 /* GTMStackTrace.m */; };
+		F6EA1DEA144DFDB400086DF0 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DDC144DFDB400086DF0 /* NSObject+SBJSON.m */; };
+		F6EA1DEB144DFDB400086DF0 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DDE144DFDB400086DF0 /* NSString+SBJSON.m */; };
+		F6EA1DEC144DFDB400086DF0 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DE0144DFDB400086DF0 /* SBJSON.m */; };
+		F6EA1DED144DFDB400086DF0 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DE2144DFDB400086DF0 /* SBJsonBase.m */; };
+		F6EA1DEE144DFDB400086DF0 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DE4144DFDB400086DF0 /* SBJsonParser.m */; };
+		F6EA1DEF144DFDB400086DF0 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EA1DE6144DFDB400086DF0 /* SBJsonWriter.m */; };
+		F6EA1DF0144DFDB400086DF0 /* libEmbeddedAgent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EA1DE7144DFDB400086DF0 /* libEmbeddedAgent.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6EA1DA8144DE9AD00086DF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EA1D77144DE9AC00086DF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EA1D7F144DE9AD00086DF0;
+			remoteInfo = BarginBargin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6EA1D80144DE9AD00086DF0 /* BarginBargin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarginBargin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EA1D84144DE9AD00086DF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6EA1D86144DE9AD00086DF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6EA1D88144DE9AD00086DF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6EA1D8C144DE9AD00086DF0 /* BarginBargin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarginBargin-Info.plist"; sourceTree = "<group>"; };
+		F6EA1D8E144DE9AD00086DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6EA1D90144DE9AD00086DF0 /* BarginBargin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarginBargin-Prefix.pch"; sourceTree = "<group>"; };
+		F6EA1D91144DE9AD00086DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6EA1D93144DE9AD00086DF0 /* BarginBarginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarginBarginAppDelegate.h; sourceTree = "<group>"; };
+		F6EA1D94144DE9AD00086DF0 /* BarginBarginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarginBarginAppDelegate.m; sourceTree = "<group>"; };
+		F6EA1D97144DE9AD00086DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F6EA1D99144DE9AD00086DF0 /* BarginBarginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarginBarginViewController.h; sourceTree = "<group>"; };
+		F6EA1D9A144DE9AD00086DF0 /* BarginBarginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarginBarginViewController.m; sourceTree = "<group>"; };
+		F6EA1D9D144DE9AD00086DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BarginBarginViewController.xib; sourceTree = "<group>"; };
+		F6EA1DA4144DE9AD00086DF0 /* BarginBarginTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarginBarginTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EA1DAC144DE9AD00086DF0 /* BarginBarginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarginBarginTests-Info.plist"; sourceTree = "<group>"; };
+		F6EA1DAE144DE9AD00086DF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6EA1DB0144DE9AD00086DF0 /* BarginBarginTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarginBarginTests-Prefix.pch"; sourceTree = "<group>"; };
+		F6EA1DB1144DE9AD00086DF0 /* BarginBarginTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarginBarginTests.h; sourceTree = "<group>"; };
+		F6EA1DB3144DE9AD00086DF0 /* BarginBarginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarginBarginTests.m; sourceTree = "<group>"; };
+		F6EA1DC9144DF76900086DF0 /* swingline_stapler_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swingline_stapler_icon.png; sourceTree = "<group>"; };
+		F6EA1DCF144DFC9D00086DF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F6EA1DD2144DFDB400086DF0 /* EmbeddedAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedAgent.h; sourceTree = "<group>"; };
+		F6EA1DD3144DFDB400086DF0 /* EmbeddedAgentSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EmbeddedAgentSettings.plist; sourceTree = "<group>"; };
+		F6EA1DD5144DFDB400086DF0 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F6EA1DD6144DFDB400086DF0 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		F6EA1DD7144DFDB400086DF0 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
+		F6EA1DD8144DFDB400086DF0 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
+		F6EA1DDA144DFDB400086DF0 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F6EA1DDB144DFDB400086DF0 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F6EA1DDC144DFDB400086DF0 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F6EA1DDD144DFDB400086DF0 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F6EA1DDE144DFDB400086DF0 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F6EA1DDF144DFDB400086DF0 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		F6EA1DE0144DFDB400086DF0 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		F6EA1DE1144DFDB400086DF0 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F6EA1DE2144DFDB400086DF0 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F6EA1DE3144DFDB400086DF0 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F6EA1DE4144DFDB400086DF0 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F6EA1DE5144DFDB400086DF0 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F6EA1DE6144DFDB400086DF0 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F6EA1DE7144DFDB400086DF0 /* libEmbeddedAgent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEmbeddedAgent.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6EA1D7D144DE9AD00086DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1DD0144DFC9D00086DF0 /* CoreLocation.framework in Frameworks */,
+				F6EA1D85144DE9AD00086DF0 /* UIKit.framework in Frameworks */,
+				F6EA1D87144DE9AD00086DF0 /* Foundation.framework in Frameworks */,
+				F6EA1D89144DE9AD00086DF0 /* CoreGraphics.framework in Frameworks */,
+				F6EA1DF0144DFDB400086DF0 /* libEmbeddedAgent.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EA1DA0144DE9AD00086DF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1DA5144DE9AD00086DF0 /* UIKit.framework in Frameworks */,
+				F6EA1DA6144DE9AD00086DF0 /* Foundation.framework in Frameworks */,
+				F6EA1DA7144DE9AD00086DF0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EA1D75144DE9AC00086DF0 = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DD1144DFDB400086DF0 /* app47 */,
+				F6EA1DCF144DFC9D00086DF0 /* CoreLocation.framework */,
+				F6EA1DC9144DF76900086DF0 /* swingline_stapler_icon.png */,
+				F6EA1D8A144DE9AD00086DF0 /* BarginBargin */,
+				F6EA1DAA144DE9AD00086DF0 /* BarginBarginTests */,
+				F6EA1D83144DE9AD00086DF0 /* Frameworks */,
+				F6EA1D81144DE9AD00086DF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EA1D81144DE9AD00086DF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1D80144DE9AD00086DF0 /* BarginBargin.app */,
+				F6EA1DA4144DE9AD00086DF0 /* BarginBarginTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EA1D83144DE9AD00086DF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1D84144DE9AD00086DF0 /* UIKit.framework */,
+				F6EA1D86144DE9AD00086DF0 /* Foundation.framework */,
+				F6EA1D88144DE9AD00086DF0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6EA1D8A144DE9AD00086DF0 /* BarginBargin */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1D93144DE9AD00086DF0 /* BarginBarginAppDelegate.h */,
+				F6EA1D94144DE9AD00086DF0 /* BarginBarginAppDelegate.m */,
+				F6EA1D96144DE9AD00086DF0 /* MainWindow.xib */,
+				F6EA1D99144DE9AD00086DF0 /* BarginBarginViewController.h */,
+				F6EA1D9A144DE9AD00086DF0 /* BarginBarginViewController.m */,
+				F6EA1D9C144DE9AD00086DF0 /* BarginBarginViewController.xib */,
+				F6EA1D8B144DE9AD00086DF0 /* Supporting Files */,
+			);
+			path = BarginBargin;
+			sourceTree = "<group>";
+		};
+		F6EA1D8B144DE9AD00086DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1D8C144DE9AD00086DF0 /* BarginBargin-Info.plist */,
+				F6EA1D8D144DE9AD00086DF0 /* InfoPlist.strings */,
+				F6EA1D90144DE9AD00086DF0 /* BarginBargin-Prefix.pch */,
+				F6EA1D91144DE9AD00086DF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6EA1DAA144DE9AD00086DF0 /* BarginBarginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DB1144DE9AD00086DF0 /* BarginBarginTests.h */,
+				F6EA1DB3144DE9AD00086DF0 /* BarginBarginTests.m */,
+				F6EA1DAB144DE9AD00086DF0 /* Supporting Files */,
+			);
+			path = BarginBarginTests;
+			sourceTree = "<group>";
+		};
+		F6EA1DAB144DE9AD00086DF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DAC144DE9AD00086DF0 /* BarginBarginTests-Info.plist */,
+				F6EA1DAD144DE9AD00086DF0 /* InfoPlist.strings */,
+				F6EA1DB0144DE9AD00086DF0 /* BarginBarginTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6EA1DD1144DFDB400086DF0 /* app47 */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DD2144DFDB400086DF0 /* EmbeddedAgent.h */,
+				F6EA1DD3144DFDB400086DF0 /* EmbeddedAgentSettings.plist */,
+				F6EA1DD4144DFDB400086DF0 /* GoogleToolbox */,
+				F6EA1DD9144DFDB400086DF0 /* JSON */,
+				F6EA1DE7144DFDB400086DF0 /* libEmbeddedAgent.a */,
+			);
+			name = app47;
+			path = BarginBargin/app47;
+			sourceTree = "<group>";
+		};
+		F6EA1DD4144DFDB400086DF0 /* GoogleToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DD5144DFDB400086DF0 /* GTMDefines.h */,
+				F6EA1DD6144DFDB400086DF0 /* GTMObjC2Runtime.h */,
+				F6EA1DD7144DFDB400086DF0 /* GTMStackTrace.h */,
+				F6EA1DD8144DFDB400086DF0 /* GTMStackTrace.m */,
+			);
+			path = GoogleToolbox;
+			sourceTree = "<group>";
+		};
+		F6EA1DD9144DFDB400086DF0 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F6EA1DDA144DFDB400086DF0 /* JSON.h */,
+				F6EA1DDB144DFDB400086DF0 /* NSObject+SBJSON.h */,
+				F6EA1DDC144DFDB400086DF0 /* NSObject+SBJSON.m */,
+				F6EA1DDD144DFDB400086DF0 /* NSString+SBJSON.h */,
+				F6EA1DDE144DFDB400086DF0 /* NSString+SBJSON.m */,
+				F6EA1DDF144DFDB400086DF0 /* SBJSON.h */,
+				F6EA1DE0144DFDB400086DF0 /* SBJSON.m */,
+				F6EA1DE1144DFDB400086DF0 /* SBJsonBase.h */,
+				F6EA1DE2144DFDB400086DF0 /* SBJsonBase.m */,
+				F6EA1DE3144DFDB400086DF0 /* SBJsonParser.h */,
+				F6EA1DE4144DFDB400086DF0 /* SBJsonParser.m */,
+				F6EA1DE5144DFDB400086DF0 /* SBJsonWriter.h */,
+				F6EA1DE6144DFDB400086DF0 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6EA1D7F144DE9AD00086DF0 /* BarginBargin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EA1DB7144DE9AD00086DF0 /* Build configuration list for PBXNativeTarget "BarginBargin" */;
+			buildPhases = (
+				F6EA1D7C144DE9AD00086DF0 /* Sources */,
+				F6EA1D7D144DE9AD00086DF0 /* Frameworks */,
+				F6EA1D7E144DE9AD00086DF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarginBargin;
+			productName = BarginBargin;
+			productReference = F6EA1D80144DE9AD00086DF0 /* BarginBargin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EA1DA3144DE9AD00086DF0 /* BarginBarginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EA1DBA144DE9AD00086DF0 /* Build configuration list for PBXNativeTarget "BarginBarginTests" */;
+			buildPhases = (
+				F6EA1D9F144DE9AD00086DF0 /* Sources */,
+				F6EA1DA0144DE9AD00086DF0 /* Frameworks */,
+				F6EA1DA1144DE9AD00086DF0 /* Resources */,
+				F6EA1DA2144DE9AD00086DF0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EA1DA9144DE9AD00086DF0 /* PBXTargetDependency */,
+			);
+			name = BarginBarginTests;
+			productName = BarginBarginTests;
+			productReference = F6EA1DA4144DE9AD00086DF0 /* BarginBarginTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EA1D77144DE9AC00086DF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Beacon50;
+			};
+			buildConfigurationList = F6EA1D7A144DE9AC00086DF0 /* Build configuration list for PBXProject "BarginBargin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6EA1D75144DE9AC00086DF0;
+			productRefGroup = F6EA1D81144DE9AD00086DF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EA1D7F144DE9AD00086DF0 /* BarginBargin */,
+				F6EA1DA3144DE9AD00086DF0 /* BarginBarginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6EA1D7E144DE9AD00086DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1D8F144DE9AD00086DF0 /* InfoPlist.strings in Resources */,
+				F6EA1D98144DE9AD00086DF0 /* MainWindow.xib in Resources */,
+				F6EA1D9E144DE9AD00086DF0 /* BarginBarginViewController.xib in Resources */,
+				F6EA1DCA144DF76900086DF0 /* swingline_stapler_icon.png in Resources */,
+				F6EA1DE8144DFDB400086DF0 /* EmbeddedAgentSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EA1DA1144DE9AD00086DF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1DAF144DE9AD00086DF0 /* InfoPlist.strings in Resources */,
+				F6EA1DB2144DE9AD00086DF0 /* BarginBarginTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6EA1DA2144DE9AD00086DF0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6EA1D7C144DE9AD00086DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1D92144DE9AD00086DF0 /* main.m in Sources */,
+				F6EA1D95144DE9AD00086DF0 /* BarginBarginAppDelegate.m in Sources */,
+				F6EA1D9B144DE9AD00086DF0 /* BarginBarginViewController.m in Sources */,
+				F6EA1DE9144DFDB400086DF0 /* GTMStackTrace.m in Sources */,
+				F6EA1DEA144DFDB400086DF0 /* NSObject+SBJSON.m in Sources */,
+				F6EA1DEB144DFDB400086DF0 /* NSString+SBJSON.m in Sources */,
+				F6EA1DEC144DFDB400086DF0 /* SBJSON.m in Sources */,
+				F6EA1DED144DFDB400086DF0 /* SBJsonBase.m in Sources */,
+				F6EA1DEE144DFDB400086DF0 /* SBJsonParser.m in Sources */,
+				F6EA1DEF144DFDB400086DF0 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EA1D9F144DE9AD00086DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA1DB4144DE9AD00086DF0 /* BarginBarginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6EA1DA9144DE9AD00086DF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EA1D7F144DE9AD00086DF0 /* BarginBargin */;
+			targetProxy = F6EA1DA8144DE9AD00086DF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6EA1D8D144DE9AD00086DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EA1D8E144DE9AD00086DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F6EA1D96144DE9AD00086DF0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EA1D97144DE9AD00086DF0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F6EA1D9C144DE9AD00086DF0 /* BarginBarginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EA1D9D144DE9AD00086DF0 /* en */,
+			);
+			name = BarginBarginViewController.xib;
+			sourceTree = "<group>";
+		};
+		F6EA1DAD144DE9AD00086DF0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EA1DAE144DE9AD00086DF0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6EA1DB5144DE9AD00086DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6EA1DB6144DE9AD00086DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F6EA1DB8144DE9AD00086DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarginBargin/BarginBargin-Prefix.pch";
+				INFOPLIST_FILE = "BarginBargin/BarginBargin-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BarginBargin/app47\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6EA1DB9144DE9AD00086DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarginBargin/BarginBargin-Prefix.pch";
+				INFOPLIST_FILE = "BarginBargin/BarginBargin-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BarginBargin/app47\"",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F6EA1DBB144DE9AD00086DF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarginBargin.app/BarginBargin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarginBarginTests/BarginBarginTests-Prefix.pch";
+				INFOPLIST_FILE = "BarginBarginTests/BarginBarginTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F6EA1DBC144DE9AD00086DF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarginBargin.app/BarginBargin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarginBarginTests/BarginBarginTests-Prefix.pch";
+				INFOPLIST_FILE = "BarginBarginTests/BarginBarginTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6EA1D7A144DE9AC00086DF0 /* Build configuration list for PBXProject "BarginBargin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EA1DB5144DE9AD00086DF0 /* Debug */,
+				F6EA1DB6144DE9AD00086DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EA1DB7144DE9AD00086DF0 /* Build configuration list for PBXNativeTarget "BarginBargin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EA1DB8144DE9AD00086DF0 /* Debug */,
+				F6EA1DB9144DE9AD00086DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6EA1DBA144DE9AD00086DF0 /* Build configuration list for PBXNativeTarget "BarginBarginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EA1DBB144DE9AD00086DF0 /* Debug */,
+				F6EA1DBC144DE9AD00086DF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EA1D77144DE9AC00086DF0 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BarginBarginTests' target in the 'BarginBarginTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
