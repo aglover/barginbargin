@@ -24,6 +24,16 @@
     
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    if (textField == deal)
+        [tags becomeFirstResponder];    
+    else{
+        NSLog(@"else was called");
+        [self submitDeal];
+    }
+    return YES;
+}
+
 - (void)dealloc
 {
     [super dealloc];
